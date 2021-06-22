@@ -10,3 +10,69 @@ body {
 }
 
 /* Add styles here! */
+header {
+  background-color: hsl(0deg, 0%, 100%);
+  max-height: max-content;
+  width: 100%;
+}
+
+header .max-width-wrapper {
+  padding: 32px 0px;
+}
+
+header .max-width-wrapper .intro-chunk {
+  padding: 8px 24px;
+  margin: 0px 96px;
+}
+
+header .max-width-wrapper .title {
+  color: hsl(0deg, 0%, 10%);
+  padding-bottom: 32px;
+}
+
+header .max-width-wrapper .intro-chunk p {
+  font-size: 1.5rem;
+}
+
+header .max-width-wrapper .intro-chunk p strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+
+main {
+  background-color: hsl(0deg, 0%, 60%);
+  border-top: 8px solid hsl(0deg, 0%, 40%);
+  height: 100%;
+  width: 100%;
+}
+
+main .max-width-wrapper {
+  padding: 96px 0px;
+}
+
+main .max-width-wrapper .card {
+  background-color: hsl(0deg, 0%, 100%);
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
+  padding: 8px 24px;
+  margin: 0px 96px;
+}
+
+main .max-width-wrapper .card .indented-heading {
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+  color: hsl(0deg, 0%, 10%);
+  margin-left: -32px;
+  margin-top: 0px;
+  padding: 16px 32px;
+  width: fit-content;
+}
+
+main .max-width-wrapper .card p {
+  font-size: 1.25rem;
+}
+
+.max-width-wrapper {
+  /* width: 75%; */
+  margin-right: auto;
+  margin-left: auto;
+}

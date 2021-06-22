@@ -21,8 +21,8 @@ header .max-width-wrapper {
 }
 
 header .max-width-wrapper .intro-chunk {
-  padding: 8px 24px;
   margin: 0px 96px;
+  padding: 8px 24px;
 }
 
 header .max-width-wrapper .title {
@@ -53,8 +53,8 @@ main .max-width-wrapper {
 main .max-width-wrapper .card {
   background-color: hsl(0deg, 0%, 100%);
   border-bottom: 8px solid hsl(0deg, 0%, 40%);
-  padding: 8px 24px;
   margin: 0px 96px;
+  padding: 8px 24px;
 }
 
 main .max-width-wrapper .card .indented-heading {
@@ -72,7 +72,6 @@ main .max-width-wrapper .card p {
 }
 
 .max-width-wrapper {
-  /* width: 75%; */
-  margin-right: auto;
   margin-left: auto;
+  margin-right: auto;
 }
